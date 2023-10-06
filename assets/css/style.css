@@ -11,6 +11,10 @@ body {
     }
 }
 
+main {
+    position: relative;
+}
+
 .allarticle {
     display: flex;
     justify-content: center;
@@ -24,7 +28,7 @@ body {
 }
 
 img {
-    animation: rotation 2s infinite linear;
+    animation: rotation 1s infinite linear;
 }
 
 @keyframes rotation {
@@ -35,4 +39,16 @@ img {
     to {
         transform: rotate(359deg);
     }
+}
+
+.modalContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.btn {
+    animation: rotation 1s infinite linear;
 }
