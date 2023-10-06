@@ -41,6 +41,11 @@ img {
     }
 }
 
+.displayNone {
+    display: none;
+
+}
+
 .modalContainer {
     position: absolute;
     left: 50%;
